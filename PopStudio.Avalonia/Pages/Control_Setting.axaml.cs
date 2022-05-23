@@ -273,8 +273,8 @@ namespace PopStudio.Avalonia.Pages
         {
             ListBox lst = sender as ListBox;
             if (lst == null || lst.SelectedIndex == -1 || e.AddedItems.Count == 0) return;
-            ChangeDzPackSetting((e.AddedItems[0] as ListInfo)?.ItemName);
             lst.SelectedIndex = -1;
+            ChangeDzPackSetting((e.AddedItems[0] as ListInfo)?.ItemName);
         }
 
         /// <summary>
@@ -407,8 +407,8 @@ namespace PopStudio.Avalonia.Pages
         {
             ListBox lst = sender as ListBox;
             if (lst == null || lst.SelectedIndex == -1 || e.AddedItems.Count == 0) return;
-            ChangePakPS3PackSetting((e.AddedItems[0] as ListInfo)?.ItemName);
             lst.SelectedIndex = -1;
+            ChangePakPS3PackSetting((e.AddedItems[0] as ListInfo)?.ItemName);
         }
 
         /// <summary>
