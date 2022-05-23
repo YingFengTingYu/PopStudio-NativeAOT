@@ -1,0 +1,1 @@
+dotnet publish -r linux-musl-arm64 -c Release
