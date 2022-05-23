@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32505.426
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PopStudio.Shared", "PopStudio.Shared\PopStudio.Shared.shproj", "{FDE62037-A3D2-4EC9-A319-D099B5CE5059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopStudio.ConsoleProject", "PopStudio.ConsoleProject\PopStudio.ConsoleProject.csproj", "{5471F316-801C-4C93-9880-6C04300C306C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopStudio.GTK", "PopStudio.GTK\PopStudio.GTK.csproj", "{93A1FBE1-50F4-40E9-87B7-BADCA4DB30A6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PopStudio.Language", "PopStudio.Language\PopStudio.Language.shproj", "{D0BD09DB-2395-44E3-8CE2-76704C51F30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopStudio.Avalonia", "PopStudio.Avalonia\PopStudio.Avalonia.csproj", "{7643C509-3D68-4D7E-9601-C9BE99ED7F9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5471F316-801C-4C93-9880-6C04300C306C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5471F316-801C-4C93-9880-6C04300C306C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5471F316-801C-4C93-9880-6C04300C306C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5471F316-801C-4C93-9880-6C04300C306C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A1FBE1-50F4-40E9-87B7-BADCA4DB30A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A1FBE1-50F4-40E9-87B7-BADCA4DB30A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A1FBE1-50F4-40E9-87B7-BADCA4DB30A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A1FBE1-50F4-40E9-87B7-BADCA4DB30A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7643C509-3D68-4D7E-9601-C9BE99ED7F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7643C509-3D68-4D7E-9601-C9BE99ED7F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7643C509-3D68-4D7E-9601-C9BE99ED7F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7643C509-3D68-4D7E-9601-C9BE99ED7F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FE637E9-922A-43C9-ACDC-8A2A416AEE8F}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PopStudio.Shared\PopStudio.Shared.projitems*{5471f316-801c-4c93-9880-6c04300c306c}*SharedItemsImports = 5
+		PopStudio.Language\PopStudio.Language.projitems*{7643c509-3d68-4d7e-9601-c9be99ed7f9e}*SharedItemsImports = 5
+		PopStudio.Shared\PopStudio.Shared.projitems*{7643c509-3d68-4d7e-9601-c9be99ed7f9e}*SharedItemsImports = 5
+		PopStudio.Language\PopStudio.Language.projitems*{93a1fbe1-50f4-40e9-87b7-badca4db30a6}*SharedItemsImports = 5
+		PopStudio.Shared\PopStudio.Shared.projitems*{93a1fbe1-50f4-40e9-87b7-badca4db30a6}*SharedItemsImports = 5
+		PopStudio.Language\PopStudio.Language.projitems*{d0bd09db-2395-44e3-8ce2-76704c51f30b}*SharedItemsImports = 13
+		PopStudio.Shared\PopStudio.Shared.projitems*{fde62037-a3d2-4ec9-a319-d099b5ce5059}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

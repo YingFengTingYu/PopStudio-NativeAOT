@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="PopStudio.Platform.Alert"
+        SizeToContent="Height"
+		Width="300"
+		CanResize="False">
+	<StackPanel HorizontalAlignment="Center">
+		<TextBlock TextWrapping="Wrap" Margin="10 3 10 3" HorizontalAlignment="Stretch" Name="Text" />
+		<TextBox Margin="10 3 10 3" HorizontalAlignment="Stretch" Name="Input" IsVisible="False" />
+		<StackPanel Margin="0 40 0 0" HorizontalAlignment="Center" Orientation="Horizontal" Name="Buttons">
+			<StackPanel.Styles>
+				<Style Selector="Button">
+					<Setter Property="Margin" Value="5"/>
+				</Style>
+			</StackPanel.Styles>
+		</StackPanel>
+	</StackPanel>
+</Window>
